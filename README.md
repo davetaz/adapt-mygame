@@ -8,7 +8,9 @@
 
 ## Installation
 
-Drop the component in the components directory of your courses src director.
+Drop the component in the components directory of your courses src directory.
+
+You can also install the component via the authoring tool.
 
 ## Settings Overview
 
