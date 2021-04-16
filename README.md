@@ -2,8 +2,6 @@
 
 **My Game Component** is a *question component* for the [Adapt framework](https://github.com/adaptlearning/adapt_framework).  
 
-<img src="https://github.com/adaptlearning/documentation/blob/master/04_wiki_assets/plug-ins/images/textInput01.gif" alt="text input in action">  
-
 **My Game Component** allows the user to input a free-form answer in response to an initial question. They are trying to guess the number the computer is thinking of. 
 
 **My Game Component** is a simple derivative of the **Text Input** component [See here](https://github.com/adaptlearning/adapt-contrib-textInput/wiki) for more information about its functionality and for explanations of key properties. 
