@@ -1,0 +1,17 @@
+<div class="component__inner textinput__inner">
+
+  {{> component this}}
+
+  {{! complex unless and if combination to set the correct classes for CSS to use in showing marking and disabled states}}
+  <div class="component__widget textinput__widget{{#unless _isEnabled}} is-disabled{{#if _isInteractionComplete}} is-complete is-submitted show-user-answer{{#if _isCorrect}} is-correct{{/if}}{{/if}}{{/unless}}">
+
+      <label class="textinput__item-prefix" id="answer-label" for="answer">
+        {{{prefix}}}
+      </label>
+      <input class="textinput__item-textbox js-textinput-textbox" type="text" placeholder="{{{placeholder}}}" data-id="input-answer" id="answer" value="">
+
+  </div>
+
+  <div class="btn__container"></div>
+
+</div>

@@ -1,0 +1,17 @@
+{
+  "name": "mygame",
+  "version": "1.0.0",
+  "framework": ">=5.7",
+  "homepage": "https://github.com/davetaz/adapt-mygame",
+  "issues": "https://github.com/davetaz/adapt-mygame/issues/new",
+  "component" : "mygame",
+  "targetAttribute": "_mygame",
+  "displayName" : "My Game",
+  "description": "A simple game that requires learners to guess a number.",
+  "main": "/js/myGame.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPL-3.0"
+}

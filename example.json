@@ -1,0 +1,66 @@
+    // Ordered, multiple correct answer variations
+    // --------------------------------------------------
+    {
+        "_id": "c-05",
+        "_parentId": "b-05",
+        "_type": "component",
+        "_component": "mygame",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Title of our component",
+        "displayTitle": "Title of our component",
+        "body": "Pick a random number between 1 and 5",
+        "instruction": "",
+        "_attempts": 5,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": false,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_canShowFeedback": true,
+        "_canShowMarking": true,
+        "_recordInteraction": true,
+        "_allowsAnyCase": true,
+        "_allowsPunctuation": true,
+        "_minNumber": 1,
+        "_maxNumber": 5,
+        "_feedback": {
+            "title": "Feedback",
+            "correct": "This feedback will appear if you answered the question correctly.",
+            "_incorrect": {
+                "notFinal": "",
+                "final": "This feedback will appear if you answered the question incorrectly."
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": "This feedback will appear if you answered part of the question correctly."
+            }
+        },
+        "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+        "_buttons": {
+            "_submit": {
+                "buttonText": "Submit",
+                "ariaLabel": "Select here to submit your answer."
+            },
+            "_reset": {
+                "buttonText": "Reset",
+                "ariaLabel": ""
+            },
+            "_showCorrectAnswer": {
+                "buttonText": "Correct Answer",
+                "ariaLabel": ""
+            },
+            "_hideCorrectAnswer": {
+                "buttonText": "My Answer",
+                "ariaLabel": ""
+            },
+            "_showFeedback": {
+                "buttonText": "Show feedback",
+                "ariaLabel": ""
+            },
+            "remainingAttemptsText": "attempts remaining",
+            "remainingAttemptText": "final attempt"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    }
